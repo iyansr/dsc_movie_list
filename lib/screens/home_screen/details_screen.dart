@@ -32,14 +32,16 @@ class _ViewDetailsState extends State<ViewDetails> {
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         crossAxisAlignment: CrossAxisAlignment.start,
                         children: <Widget>[
-                          IconButton(
-                            icon: Icon(
-                              Icons.arrow_back_ios,
-                              color: Colors.white,
+                          SafeArea(
+                            child: IconButton(
+                              icon: Icon(
+                                Icons.arrow_back_ios,
+                                color: Colors.white,
+                              ),
+                              onPressed: () {
+                                Navigator.of(context).pop();
+                              },
                             ),
-                            onPressed: () {
-                              Navigator.of(context).pop();
-                            },
                           ),
                           Container(
                             padding: EdgeInsets.all(12.0),

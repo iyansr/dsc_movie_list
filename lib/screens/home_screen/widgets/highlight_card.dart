@@ -19,6 +19,7 @@ class HighlightCard extends StatelessWidget {
       margin: EdgeInsets.all(8.0),
       child: RawMaterialButton(
         child: Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: <Widget>[
             Container(
               height: 232.0,
@@ -31,8 +32,10 @@ class HighlightCard extends StatelessWidget {
                 ),
               ),
             ),
+            SizedBox(height: 12.0),
             Container(
               child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: <Widget>[
                   Text(
                     movieName,
