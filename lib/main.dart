@@ -8,7 +8,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      title: 'DSC Movie App',
       home: Scaffold(
         backgroundColor: Color(0xffF6F7F9),
         body: HomeScreen(),
