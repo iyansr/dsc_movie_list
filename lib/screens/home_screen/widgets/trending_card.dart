@@ -34,7 +34,7 @@ class TrendingCard extends StatelessWidget {
       margin: EdgeInsets.all(8.0),
       child: RawMaterialButton(
         child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          mainAxisAlignment: MainAxisAlignment.start,
           children: <Widget>[
             Expanded(
               child: trendingCardImage(imgURL),
@@ -42,8 +42,10 @@ class TrendingCard extends StatelessWidget {
             Expanded(
               flex: 3,
               child: Container(
-                padding: EdgeInsets.all(8.0),
+                alignment: Alignment.centerLeft,
+                padding: EdgeInsets.all(16.0),
                 child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: <Widget>[
                     Text(
                       movieTitle,
