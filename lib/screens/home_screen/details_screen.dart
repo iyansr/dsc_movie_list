@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:movie_list/ui/color.dart';
 
 class ViewDetails extends StatefulWidget {
   @override
@@ -93,7 +94,7 @@ class _ViewDetailsState extends State<ViewDetails> {
                                   Text(
                                     "9.0/10.0",
                                     style: TextStyle(
-                                      color: Color(0xff1A1A4E),
+                                      color: darkNavy,
                                       fontSize: 18.0,
                                       fontWeight: FontWeight.bold,
                                     ),
@@ -117,7 +118,7 @@ class _ViewDetailsState extends State<ViewDetails> {
                                   Text(
                                     "96,202,337",
                                     style: TextStyle(
-                                      color: Color(0xff1A1A4E),
+                                      color: darkNavy,
                                       fontSize: 18.0,
                                       fontWeight: FontWeight.bold,
                                     ),
@@ -141,7 +142,7 @@ class _ViewDetailsState extends State<ViewDetails> {
                                   Text(
                                     "112 Minutes",
                                     style: TextStyle(
-                                      color: Color(0xff1A1A4E),
+                                      color: darkNavy,
                                       fontSize: 18.0,
                                       fontWeight: FontWeight.bold,
                                     ),
@@ -165,7 +166,7 @@ class _ViewDetailsState extends State<ViewDetails> {
                             Text(
                               "Director",
                               style: TextStyle(
-                                color: Color(0xff1A1A4E),
+                                color: darkNavy,
                                 fontSize: 18.0,
                                 fontWeight: FontWeight.bold,
                               ),
@@ -173,7 +174,7 @@ class _ViewDetailsState extends State<ViewDetails> {
                             Text(
                               "Todd Philips",
                               style: TextStyle(
-                                color: Color(0xff707070),
+                                color: greyColor,
                                 fontSize: 18.0,
                                 fontWeight: FontWeight.bold,
                               ),
@@ -190,7 +191,7 @@ class _ViewDetailsState extends State<ViewDetails> {
                             Text(
                               "Writer",
                               style: TextStyle(
-                                color: Color(0xff1A1A4E),
+                                color: darkNavy,
                                 fontSize: 18.0,
                                 fontWeight: FontWeight.bold,
                               ),
@@ -198,7 +199,7 @@ class _ViewDetailsState extends State<ViewDetails> {
                             Text(
                               "Todd Philips, Scott Silver ",
                               style: TextStyle(
-                                color: Color(0xff707070),
+                                color: greyColor,
                                 fontSize: 18.0,
                                 fontWeight: FontWeight.bold,
                               ),
@@ -215,7 +216,7 @@ class _ViewDetailsState extends State<ViewDetails> {
                             Text(
                               "Starring",
                               style: TextStyle(
-                                color: Color(0xff1A1A4E),
+                                color: darkNavy,
                                 fontSize: 18.0,
                                 fontWeight: FontWeight.bold,
                               ),
@@ -223,7 +224,7 @@ class _ViewDetailsState extends State<ViewDetails> {
                             Text(
                               "Joaquin Phoenix, Robert De Niro, Zazie Beetz",
                               style: TextStyle(
-                                color: Color(0xff707070),
+                                color: greyColor,
                                 fontSize: 18.0,
                                 fontWeight: FontWeight.bold,
                               ),
@@ -240,7 +241,7 @@ class _ViewDetailsState extends State<ViewDetails> {
                             Text(
                               "Synopsis",
                               style: TextStyle(
-                                color: Color(0xff1A1A4E),
+                                color: darkNavy,
                                 fontSize: 18.0,
                                 fontWeight: FontWeight.bold,
                               ),
@@ -248,7 +249,7 @@ class _ViewDetailsState extends State<ViewDetails> {
                             Text(
                               "Joker centers around an origin of the iconic arch nemesis and is an original, standalone story not seen before on the big screen. Todd Phillips' exploration of Arthur Fleck (Joaquin Phoenix), a man disregarded by society, is not only a gritty character study, but also a broader cautionary tale. Written by Warner Bros.",
                               style: TextStyle(
-                                color: Color(0xff707070),
+                                color: greyColor,
                                 fontSize: 12.0,
                               ),
                             )
