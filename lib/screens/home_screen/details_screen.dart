@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:movie_list/ui/color.dart';
+import 'package:movie_list/ui/textStyle.dart';
 
 class ViewDetails extends StatefulWidget {
   @override
@@ -51,23 +52,12 @@ class _ViewDetailsState extends State<ViewDetails> {
                               children: <Widget>[
                                 Text(
                                   "Warner Bros.",
-                                  style: TextStyle(
-                                    color: Colors.white,
-                                  ),
+                                  style: onlyWhite,
                                 ),
-                                Text(
-                                  "Joker",
-                                  style: TextStyle(
-                                    fontSize: 32.0,
-                                    fontWeight: FontWeight.bold,
-                                    color: Colors.white,
-                                  ),
-                                ),
+                                Text("Joker", style: white32Bold),
                                 Text(
                                   "R | Crime, Drama, Thriller",
-                                  style: TextStyle(
-                                    color: Colors.white,
-                                  ),
+                                  style: onlyWhite,
                                 ),
                               ],
                             ),
